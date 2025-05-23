@@ -22688,7 +22688,7 @@ fieldset:disabled .btn {
 }
 
 .border-top {
-  border-top: var(--rw-border-width) var(--rw-border-style) var(#7B1E1E) !important;
+  border-top: var(--rw-border-width) var(--rw-border-style) 		#A52A2A !important;
 }
 
 .border-top-0 {
@@ -22712,7 +22712,7 @@ fieldset:disabled .btn {
 }
 
 .border-start {
-  border-left: var(--rw-border-width) var(--rw-border-style) var(--rw-border-color) !important;
+  border-left: var(--rw-border-width) var(--rw-border-style)  		#A52A2A !important;
 }
 
 .border-start-0 {
