@@ -47696,6 +47696,7 @@ Appointment Section  CSS
   display: block;
   overflow: hidden;
   z-index: 1;
+   
 }
 
 .projects-one__img {
@@ -47703,6 +47704,7 @@ Appointment Section  CSS
   display: block;
   overflow: hidden;
   z-index: 1;
+  border-radius: 8px!important;
 }
 
 .projects-one__img:before {
@@ -47712,8 +47714,18 @@ Appointment Section  CSS
   left: 0;
   bottom: 0;
   right: 0;
-  background: rgb(166, 161, 130);
-  background: linear-gradient(0deg, rgba(166, 161, 130, 1) 0%, rgba(166, 161, 130, 1) 10%, rgba(166, 161, 130, 0.5970763305322129) 51%, rgba(166, 161, 130, 0.7063200280112045) 80%, rgba(166, 161, 130, 0.10407913165266103) 100%);
+  /* background: rgb(166, 161, 130); */
+background: linear-gradient(
+  to top,
+  rgba(251, 133, 0, 0.4) 10%,   /* orange at bottom with 0.2 opacity */
+  rgba(251, 133, 0, 0) 100%    /* fully transparent at top */
+);
+
+
+
+ 
+
+
   opacity: 0;
   transition: background-color 0.5s ease;
   transition: all 0.5s ease;
@@ -47783,7 +47795,7 @@ Appointment Section  CSS
 
 .projects-one__sub-title {
   font-size: 18px;
-  color: var(--tecture-base);
+  color: white;
 }
 
 .projects-one__arrow {
