@@ -14105,7 +14105,7 @@ progress {
 
   .container,
   .container-sm {
-    /* max-width: 540px; */
+    max-width: 540px;
   }
 }
 
@@ -47369,7 +47369,7 @@ Appointment Section  CSS
 }
 
 .Photographer-section-2 .Photographer-mentor {
-  /* margin-left: -296px; */
+  margin-left: -100px;
 }
 
 .Photographer-section-2 .Photographer-mentor .Photographer-img {
