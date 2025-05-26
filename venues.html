@@ -1332,9 +1332,9 @@
         var swiper = new Swiper(".vlogMySwiper", {
             slidesPerView: 1,
             spaceBetween: 30,
-            freeMode: true,
+            freeMode: false,
             loop: true,
-
+ speed:2500,
             navigation: {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
@@ -1350,9 +1350,9 @@
                     slidesPerView: 3,
                 },
             },
-            // autoplay: {
-            //   delay: 2000,
-            // },
+            autoplay: {
+              delay: 2000,
+            },
         });
     </script>
 
